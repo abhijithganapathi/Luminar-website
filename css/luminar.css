@@ -1,0 +1,99 @@
+.headtop{
+    height: 35px;
+    background-color: #5e068a;
+    width: 100%;
+    color: white;
+    font-size: small;
+    padding: 5px;
+ }
+ .carous {
+    background-color: black;
+  }
+  .carous img {
+    opacity: 0.4;
+    height: 700px;
+  }
+  .carousel-caption {
+    top: 10%;
+    text-align: left;
+  }  
+ .carousel-caption h1 {
+    animation: moveUp 1s ease-out 0s 1;
+  }
+  .carousel-caption p {
+    animation: moveUp 1.5s ease-in-out 0s 1;
+  }
+  .carousel-caption button {
+    animation: moveUp 2s ease-in-out 0s 1;
+  }
+ .btn1{
+    display:inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    background: rgb(84, 12, 117);
+    color: #fff;
+    padding: .88rem 1.7rem;
+    font-size: .85rem;
+    font-weight: 500;
+    border: .2rem solid rgb(84, 12, 117);
+    border-radius: 4.5rem;
+    text-align: center;
+    transition: all .7s ease;
+ }
+ .btn1:hover{
+    background: #fff;
+    border: .15rem solid rgb(84, 12, 117);
+    color: rgb(84, 12, 117);
+}
+.course{
+    background-color: #fff;
+    transition: all .5s cubic-bezier(0.25,0.8, 0.25, 1);
+}
+.course:hover{
+    transform: scaleY(1);
+    box-shadow: 0 0 2rem rgba(0 ,0 ,0,.2);
+}
+.card{
+    color: #fff;
+ }
+ 
+.card:hover{
+     transform: scaleY(1);
+     box-shadow: 0 0 2rem rgba(0 ,0 ,0,.2);
+ }
+ .card-body{
+    height: 230px;
+ }
+
+ .button-sec .btn3{
+    display: inline-block;
+    margin-top: 4rem;
+    text-decoration: none;
+    background:transparent;
+    color: rgb(84, 12, 117);
+    padding: .88rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: .18rem solid rgb(84, 12, 117);
+    border-radius: 4.5rem;
+    text-align: center;
+    transition: all .6s ease;
+}
+
+.button-container-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.btn5{
+    background-color: rgb(252, 246, 253);
+    color: rgb(73, 4, 80);
+    border-color: rgb(84, 8, 80);
+    border-radius: 25px;
+    margin-bottom: 3rem;
+}
+.btn5:hover{
+    background-color: rgb(100, 14, 108);
+    color: rgb(251, 244, 244);
+}
